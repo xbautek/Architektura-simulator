@@ -72,7 +72,7 @@
             this.labelAX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelAX.Location = new System.Drawing.Point(37, 37);
             this.labelAX.Name = "labelAX";
-            this.labelAX.Size = new System.Drawing.Size(42, 25);
+            this.labelAX.Size = new System.Drawing.Size(33, 20);
             this.labelAX.TabIndex = 0;
             this.labelAX.Text = "AX";
             // 
@@ -94,7 +94,7 @@
             this.labelBX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelBX.Location = new System.Drawing.Point(37, 72);
             this.labelBX.Name = "labelBX";
-            this.labelBX.Size = new System.Drawing.Size(41, 25);
+            this.labelBX.Size = new System.Drawing.Size(33, 20);
             this.labelBX.TabIndex = 2;
             this.labelBX.Text = "BX";
             // 
@@ -104,7 +104,7 @@
             this.labelCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelCX.Location = new System.Drawing.Point(37, 107);
             this.labelCX.Name = "labelCX";
-            this.labelCX.Size = new System.Drawing.Size(43, 25);
+            this.labelCX.Size = new System.Drawing.Size(33, 20);
             this.labelCX.TabIndex = 3;
             this.labelCX.Text = "CX";
             // 
@@ -114,7 +114,7 @@
             this.labelDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelDX.Location = new System.Drawing.Point(37, 142);
             this.labelDX.Name = "labelDX";
-            this.labelDX.Size = new System.Drawing.Size(42, 25);
+            this.labelDX.Size = new System.Drawing.Size(34, 20);
             this.labelDX.TabIndex = 4;
             this.labelDX.Text = "DX";
             // 
@@ -346,6 +346,7 @@
             this.VARIABLE.Name = "VARIABLE";
             this.VARIABLE.Size = new System.Drawing.Size(164, 25);
             this.VARIABLE.TabIndex = 26;
+            this.VARIABLE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.VARIABLE_KeyPress);
             // 
             // labelVAR
             // 
@@ -353,7 +354,7 @@
             this.labelVAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelVAR.Location = new System.Drawing.Point(407, 218);
             this.labelVAR.Name = "labelVAR";
-            this.labelVAR.Size = new System.Drawing.Size(56, 25);
+            this.labelVAR.Size = new System.Drawing.Size(46, 20);
             this.labelVAR.TabIndex = 25;
             this.labelVAR.Text = "VAR";
             // 
@@ -466,7 +467,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;

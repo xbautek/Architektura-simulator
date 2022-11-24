@@ -137,7 +137,7 @@ namespace Architektura___8086_simulator
                 char.IsPunctuation(e.KeyChar))
             {
                 e.Handled = true;
-                textBoxLog.Text = "AX|Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
+                textBoxLog.Text = "AX| Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
             }
 
 
@@ -150,7 +150,7 @@ namespace Architektura___8086_simulator
                 else
                 {
                     textBoxAX.Text = "65536";
-                    textBoxLog.Text = "AX|Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
+                    textBoxLog.Text = "AX| Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
                 }
             }
         }
@@ -199,20 +199,20 @@ namespace Architektura___8086_simulator
                 char.IsPunctuation(e.KeyChar))
             {
                 e.Handled = true;
-                textBoxLog.Text = "BX|Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
+                textBoxLog.Text = "BX| Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
             }
 
 
-            if (int.TryParse(textBoxBX.Text, out int number))
+            if (int.TryParse(textBoxBX.Text, out int number4))
             {
-                if (number <= 65536)
+                if (number4 <= 65536)
                 {
-                    textBoxBX.Text = number.ToString();
+                    textBoxBX.Text = number4.ToString();
                 }
                 else
                 {
                     textBoxBX.Text = "65536";
-                    textBoxLog.Text = "BX|Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
+                    textBoxLog.Text = "BX| Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
                 }
             }
         }
@@ -225,20 +225,20 @@ namespace Architektura___8086_simulator
                 char.IsPunctuation(e.KeyChar))
             {
                 e.Handled = true;
-                textBoxLog.Text = "CX|Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
+                textBoxLog.Text = "CX| Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
             }
 
 
-            if (int.TryParse(textBoxCX.Text, out int number))
+            if (int.TryParse(textBoxCX.Text, out int number3))
             {
-                if (number <= 65536)
+                if (number3 <= 65536)
                 {
-                    textBoxCX.Text = number.ToString();
+                    textBoxCX.Text = number3.ToString();
                 }
                 else
                 {
                     textBoxCX.Text = "65536";
-                    textBoxLog.Text = "CX|Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
+                    textBoxLog.Text = "CX| Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
                 }
             }
         }
@@ -251,20 +251,20 @@ namespace Architektura___8086_simulator
                 char.IsPunctuation(e.KeyChar))
             {
                 e.Handled = true;
-                textBoxLog.Text = "DX|Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
+                textBoxLog.Text = "DX| Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
             }
 
 
-            if (int.TryParse(textBoxDX.Text, out int number))
+            if (int.TryParse(textBoxDX.Text, out int number2))
             {
-                if (number <= 65536)
+                if (number2 <= 65536)
                 {
-                    textBoxDX.Text = number.ToString();
+                    textBoxDX.Text = number2.ToString();
                 }
                 else
                 {
                     textBoxDX.Text = "65536";
-                    textBoxLog.Text = "DX|Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
+                    textBoxLog.Text = "DX| Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
                 }
             }
         }
@@ -273,6 +273,33 @@ namespace Architektura___8086_simulator
         {
             var form2 = new HelpForm();
             form2.Show();
+        }
+
+        private void VARIABLE_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+            if (char.IsLetter(e.KeyChar) ||
+                char.IsSymbol(e.KeyChar) ||
+                char.IsWhiteSpace(e.KeyChar) ||
+                char.IsPunctuation(e.KeyChar))
+            {
+                e.Handled = true;
+                textBoxLog.Text = "VAR| Only numbers allowed" + Environment.NewLine + textBoxLog.Text;
+            }
+
+
+            if (int.TryParse(VARIABLE.Text, out int number1))
+            {
+                if (number1 <= 65536)
+                {
+                    VARIABLE.Text = number1.ToString();
+                }
+                else
+                {
+                    VARIABLE.Text = "65536";
+                    textBoxLog.Text = "VAR| Maximum size: 65536" + Environment.NewLine + textBoxLog.Text;
+                }
+            }
         }
     }
 }
