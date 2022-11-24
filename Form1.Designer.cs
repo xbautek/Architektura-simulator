@@ -62,6 +62,8 @@
             this.XCHGAXDX = new System.Windows.Forms.Button();
             this.XCHGCXDX = new System.Windows.Forms.Button();
             this.RESET = new System.Windows.Forms.Button();
+            this.textBoxLog = new System.Windows.Forms.TextBox();
+            this.textBoxHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelAX
@@ -134,6 +136,7 @@
             this.textBoxBX.Name = "textBoxBX";
             this.textBoxBX.Size = new System.Drawing.Size(150, 25);
             this.textBoxBX.TabIndex = 6;
+            this.textBoxBX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxBX_KeyPress);
             // 
             // textBoxCX
             // 
@@ -143,6 +146,7 @@
             this.textBoxCX.Name = "textBoxCX";
             this.textBoxCX.Size = new System.Drawing.Size(150, 25);
             this.textBoxCX.TabIndex = 7;
+            this.textBoxCX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCX_KeyPress);
             // 
             // textBoxDX
             // 
@@ -152,6 +156,7 @@
             this.textBoxDX.Name = "textBoxDX";
             this.textBoxDX.Size = new System.Drawing.Size(150, 25);
             this.textBoxDX.TabIndex = 8;
+            this.textBoxDX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDX_KeyPress);
             // 
             // MOVAXCX
             // 
@@ -436,13 +441,39 @@
             this.RESET.UseVisualStyleBackColor = true;
             this.RESET.Click += new System.EventHandler(this.RESET_Click);
             // 
+            // textBoxLog
+            // 
+            this.textBoxLog.Location = new System.Drawing.Point(42, 218);
+            this.textBoxLog.Multiline = true;
+            this.textBoxLog.Name = "textBoxLog";
+            this.textBoxLog.ReadOnly = true;
+            this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxLog.Size = new System.Drawing.Size(203, 212);
+            this.textBoxLog.TabIndex = 34;
+            // 
+            // textBoxHelp
+            // 
+            this.textBoxHelp.BackColor = System.Drawing.SystemColors.Info;
+            this.textBoxHelp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxHelp.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxHelp.Location = new System.Drawing.Point(42, 443);
+            this.textBoxHelp.Name = "textBoxHelp";
+            this.textBoxHelp.Size = new System.Drawing.Size(203, 33);
+            this.textBoxHelp.TabIndex = 35;
+            this.textBoxHelp.Text = "INFO";
+            this.textBoxHelp.UseVisualStyleBackColor = false;
+            this.textBoxHelp.Click += new System.EventHandler(this.textBoxHelp_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(821, 506);
+            this.Controls.Add(this.textBoxHelp);
+            this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.RESET);
             this.Controls.Add(this.XCHGCXDX);
             this.Controls.Add(this.XCHGAXDX);
@@ -479,6 +510,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Tag = "";
             this.Text = "Intel 8086 simulator";
@@ -522,6 +554,8 @@
         private System.Windows.Forms.Button XCHGAXDX;
         private System.Windows.Forms.Button XCHGCXDX;
         private System.Windows.Forms.Button RESET;
+        private System.Windows.Forms.TextBox textBoxLog;
+        private System.Windows.Forms.Button textBoxHelp;
     }
 }
 
