@@ -70,9 +70,10 @@
             // 
             this.labelAX.AutoSize = true;
             this.labelAX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelAX.Location = new System.Drawing.Point(37, 37);
+            this.labelAX.Location = new System.Drawing.Point(49, 46);
+            this.labelAX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelAX.Name = "labelAX";
-            this.labelAX.Size = new System.Drawing.Size(33, 20);
+            this.labelAX.Size = new System.Drawing.Size(42, 25);
             this.labelAX.TabIndex = 0;
             this.labelAX.Text = "AX";
             // 
@@ -80,9 +81,10 @@
             // 
             this.MOVAXBX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVAXBX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVAXBX.Location = new System.Drawing.Point(271, 37);
+            this.MOVAXBX.Location = new System.Drawing.Point(361, 46);
+            this.MOVAXBX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVAXBX.Name = "MOVAXBX";
-            this.MOVAXBX.Size = new System.Drawing.Size(113, 38);
+            this.MOVAXBX.Size = new System.Drawing.Size(151, 47);
             this.MOVAXBX.TabIndex = 1;
             this.MOVAXBX.Text = "MOV AX BX";
             this.MOVAXBX.UseVisualStyleBackColor = true;
@@ -92,9 +94,10 @@
             // 
             this.labelBX.AutoSize = true;
             this.labelBX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBX.Location = new System.Drawing.Point(37, 72);
+            this.labelBX.Location = new System.Drawing.Point(49, 89);
+            this.labelBX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelBX.Name = "labelBX";
-            this.labelBX.Size = new System.Drawing.Size(33, 20);
+            this.labelBX.Size = new System.Drawing.Size(41, 25);
             this.labelBX.TabIndex = 2;
             this.labelBX.Text = "BX";
             // 
@@ -102,9 +105,10 @@
             // 
             this.labelCX.AutoSize = true;
             this.labelCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelCX.Location = new System.Drawing.Point(37, 107);
+            this.labelCX.Location = new System.Drawing.Point(49, 132);
+            this.labelCX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCX.Name = "labelCX";
-            this.labelCX.Size = new System.Drawing.Size(33, 20);
+            this.labelCX.Size = new System.Drawing.Size(43, 25);
             this.labelCX.TabIndex = 3;
             this.labelCX.Text = "CX";
             // 
@@ -112,49 +116,54 @@
             // 
             this.labelDX.AutoSize = true;
             this.labelDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelDX.Location = new System.Drawing.Point(37, 142);
+            this.labelDX.Location = new System.Drawing.Point(49, 175);
+            this.labelDX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDX.Name = "labelDX";
-            this.labelDX.Size = new System.Drawing.Size(34, 20);
+            this.labelDX.Size = new System.Drawing.Size(42, 25);
             this.labelDX.TabIndex = 4;
             this.labelDX.Text = "DX";
             // 
             // textBoxAX
             // 
-            this.textBoxAX.Location = new System.Drawing.Point(95, 37);
+            this.textBoxAX.Location = new System.Drawing.Point(127, 46);
+            this.textBoxAX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxAX.MaxLength = 5;
             this.textBoxAX.Multiline = true;
             this.textBoxAX.Name = "textBoxAX";
-            this.textBoxAX.Size = new System.Drawing.Size(150, 25);
+            this.textBoxAX.Size = new System.Drawing.Size(199, 30);
             this.textBoxAX.TabIndex = 5;
             this.textBoxAX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxAX_KeyPress);
             // 
             // textBoxBX
             // 
-            this.textBoxBX.Location = new System.Drawing.Point(95, 72);
+            this.textBoxBX.Location = new System.Drawing.Point(127, 89);
+            this.textBoxBX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxBX.MaxLength = 5;
             this.textBoxBX.Multiline = true;
             this.textBoxBX.Name = "textBoxBX";
-            this.textBoxBX.Size = new System.Drawing.Size(150, 25);
+            this.textBoxBX.Size = new System.Drawing.Size(199, 30);
             this.textBoxBX.TabIndex = 6;
             this.textBoxBX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxBX_KeyPress);
             // 
             // textBoxCX
             // 
-            this.textBoxCX.Location = new System.Drawing.Point(95, 107);
+            this.textBoxCX.Location = new System.Drawing.Point(127, 132);
+            this.textBoxCX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxCX.MaxLength = 5;
             this.textBoxCX.Multiline = true;
             this.textBoxCX.Name = "textBoxCX";
-            this.textBoxCX.Size = new System.Drawing.Size(150, 25);
+            this.textBoxCX.Size = new System.Drawing.Size(199, 30);
             this.textBoxCX.TabIndex = 7;
             this.textBoxCX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCX_KeyPress);
             // 
             // textBoxDX
             // 
-            this.textBoxDX.Location = new System.Drawing.Point(95, 142);
+            this.textBoxDX.Location = new System.Drawing.Point(127, 175);
+            this.textBoxDX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxDX.MaxLength = 5;
             this.textBoxDX.Multiline = true;
             this.textBoxDX.Name = "textBoxDX";
-            this.textBoxDX.Size = new System.Drawing.Size(150, 25);
+            this.textBoxDX.Size = new System.Drawing.Size(199, 30);
             this.textBoxDX.TabIndex = 8;
             this.textBoxDX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDX_KeyPress);
             // 
@@ -162,9 +171,10 @@
             // 
             this.MOVAXCX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVAXCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVAXCX.Location = new System.Drawing.Point(271, 84);
+            this.MOVAXCX.Location = new System.Drawing.Point(361, 103);
+            this.MOVAXCX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVAXCX.Name = "MOVAXCX";
-            this.MOVAXCX.Size = new System.Drawing.Size(113, 38);
+            this.MOVAXCX.Size = new System.Drawing.Size(151, 47);
             this.MOVAXCX.TabIndex = 10;
             this.MOVAXCX.Text = "MOV AX CX";
             this.MOVAXCX.UseVisualStyleBackColor = true;
@@ -174,9 +184,10 @@
             // 
             this.MOVAXDX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVAXDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVAXDX.Location = new System.Drawing.Point(271, 131);
+            this.MOVAXDX.Location = new System.Drawing.Point(361, 161);
+            this.MOVAXDX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVAXDX.Name = "MOVAXDX";
-            this.MOVAXDX.Size = new System.Drawing.Size(113, 38);
+            this.MOVAXDX.Size = new System.Drawing.Size(151, 47);
             this.MOVAXDX.TabIndex = 11;
             this.MOVAXDX.Text = "MOV AX DX";
             this.MOVAXDX.UseVisualStyleBackColor = true;
@@ -186,9 +197,10 @@
             // 
             this.MOVBXAX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVBXAX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVBXAX.Location = new System.Drawing.Point(404, 37);
+            this.MOVBXAX.Location = new System.Drawing.Point(539, 46);
+            this.MOVBXAX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVBXAX.Name = "MOVBXAX";
-            this.MOVBXAX.Size = new System.Drawing.Size(113, 38);
+            this.MOVBXAX.Size = new System.Drawing.Size(151, 47);
             this.MOVBXAX.TabIndex = 12;
             this.MOVBXAX.Text = "MOV BX AX";
             this.MOVBXAX.UseVisualStyleBackColor = true;
@@ -198,9 +210,10 @@
             // 
             this.MOVBXCX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVBXCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVBXCX.Location = new System.Drawing.Point(404, 84);
+            this.MOVBXCX.Location = new System.Drawing.Point(539, 103);
+            this.MOVBXCX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVBXCX.Name = "MOVBXCX";
-            this.MOVBXCX.Size = new System.Drawing.Size(113, 38);
+            this.MOVBXCX.Size = new System.Drawing.Size(151, 47);
             this.MOVBXCX.TabIndex = 13;
             this.MOVBXCX.Text = "MOV BX CX";
             this.MOVBXCX.UseVisualStyleBackColor = true;
@@ -210,9 +223,10 @@
             // 
             this.MOVBXDX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVBXDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVBXDX.Location = new System.Drawing.Point(404, 131);
+            this.MOVBXDX.Location = new System.Drawing.Point(539, 161);
+            this.MOVBXDX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVBXDX.Name = "MOVBXDX";
-            this.MOVBXDX.Size = new System.Drawing.Size(113, 38);
+            this.MOVBXDX.Size = new System.Drawing.Size(151, 47);
             this.MOVBXDX.TabIndex = 14;
             this.MOVBXDX.Text = "MOV BX DX";
             this.MOVBXDX.UseVisualStyleBackColor = true;
@@ -222,9 +236,10 @@
             // 
             this.MOVCXAX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVCXAX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVCXAX.Location = new System.Drawing.Point(537, 37);
+            this.MOVCXAX.Location = new System.Drawing.Point(716, 46);
+            this.MOVCXAX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVCXAX.Name = "MOVCXAX";
-            this.MOVCXAX.Size = new System.Drawing.Size(113, 38);
+            this.MOVCXAX.Size = new System.Drawing.Size(151, 47);
             this.MOVCXAX.TabIndex = 15;
             this.MOVCXAX.Text = "MOV CX AX";
             this.MOVCXAX.UseVisualStyleBackColor = true;
@@ -234,9 +249,10 @@
             // 
             this.MOVCXBX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVCXBX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVCXBX.Location = new System.Drawing.Point(537, 84);
+            this.MOVCXBX.Location = new System.Drawing.Point(716, 103);
+            this.MOVCXBX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVCXBX.Name = "MOVCXBX";
-            this.MOVCXBX.Size = new System.Drawing.Size(113, 38);
+            this.MOVCXBX.Size = new System.Drawing.Size(151, 47);
             this.MOVCXBX.TabIndex = 16;
             this.MOVCXBX.Text = "MOV CX BX";
             this.MOVCXBX.UseVisualStyleBackColor = true;
@@ -246,9 +262,10 @@
             // 
             this.MOVCXDX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVCXDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVCXDX.Location = new System.Drawing.Point(537, 131);
+            this.MOVCXDX.Location = new System.Drawing.Point(716, 161);
+            this.MOVCXDX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVCXDX.Name = "MOVCXDX";
-            this.MOVCXDX.Size = new System.Drawing.Size(113, 38);
+            this.MOVCXDX.Size = new System.Drawing.Size(151, 47);
             this.MOVCXDX.TabIndex = 17;
             this.MOVCXDX.Text = "MOV CX DX";
             this.MOVCXDX.UseVisualStyleBackColor = true;
@@ -258,9 +275,10 @@
             // 
             this.MOVDXCX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVDXCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVDXCX.Location = new System.Drawing.Point(668, 131);
+            this.MOVDXCX.Location = new System.Drawing.Point(891, 161);
+            this.MOVDXCX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVDXCX.Name = "MOVDXCX";
-            this.MOVDXCX.Size = new System.Drawing.Size(113, 38);
+            this.MOVDXCX.Size = new System.Drawing.Size(151, 47);
             this.MOVDXCX.TabIndex = 20;
             this.MOVDXCX.Text = "MOV DX CX";
             this.MOVDXCX.UseVisualStyleBackColor = true;
@@ -270,9 +288,10 @@
             // 
             this.MOVDXBX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVDXBX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVDXBX.Location = new System.Drawing.Point(668, 84);
+            this.MOVDXBX.Location = new System.Drawing.Point(891, 103);
+            this.MOVDXBX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVDXBX.Name = "MOVDXBX";
-            this.MOVDXBX.Size = new System.Drawing.Size(113, 38);
+            this.MOVDXBX.Size = new System.Drawing.Size(151, 47);
             this.MOVDXBX.TabIndex = 19;
             this.MOVDXBX.Text = "MOV DX BX";
             this.MOVDXBX.UseVisualStyleBackColor = true;
@@ -282,9 +301,10 @@
             // 
             this.MOVDXAX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVDXAX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVDXAX.Location = new System.Drawing.Point(668, 37);
+            this.MOVDXAX.Location = new System.Drawing.Point(891, 46);
+            this.MOVDXAX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVDXAX.Name = "MOVDXAX";
-            this.MOVDXAX.Size = new System.Drawing.Size(113, 38);
+            this.MOVDXAX.Size = new System.Drawing.Size(151, 47);
             this.MOVDXAX.TabIndex = 18;
             this.MOVDXAX.Text = "MOV DX AX";
             this.MOVDXAX.UseVisualStyleBackColor = true;
@@ -294,9 +314,10 @@
             // 
             this.MOVAXVAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVAXVAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVAXVAR.Location = new System.Drawing.Point(271, 257);
+            this.MOVAXVAR.Location = new System.Drawing.Point(361, 316);
+            this.MOVAXVAR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVAXVAR.Name = "MOVAXVAR";
-            this.MOVAXVAR.Size = new System.Drawing.Size(113, 38);
+            this.MOVAXVAR.Size = new System.Drawing.Size(151, 47);
             this.MOVAXVAR.TabIndex = 21;
             this.MOVAXVAR.Text = "MOV AX VAR";
             this.MOVAXVAR.UseVisualStyleBackColor = true;
@@ -306,9 +327,10 @@
             // 
             this.MOVBXVAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVBXVAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVBXVAR.Location = new System.Drawing.Point(404, 257);
+            this.MOVBXVAR.Location = new System.Drawing.Point(539, 316);
+            this.MOVBXVAR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVBXVAR.Name = "MOVBXVAR";
-            this.MOVBXVAR.Size = new System.Drawing.Size(113, 38);
+            this.MOVBXVAR.Size = new System.Drawing.Size(151, 47);
             this.MOVBXVAR.TabIndex = 22;
             this.MOVBXVAR.Text = "MOV BX VAR";
             this.MOVBXVAR.UseVisualStyleBackColor = true;
@@ -318,9 +340,10 @@
             // 
             this.MOVCXVAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVCXVAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVCXVAR.Location = new System.Drawing.Point(537, 257);
+            this.MOVCXVAR.Location = new System.Drawing.Point(716, 316);
+            this.MOVCXVAR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVCXVAR.Name = "MOVCXVAR";
-            this.MOVCXVAR.Size = new System.Drawing.Size(113, 38);
+            this.MOVCXVAR.Size = new System.Drawing.Size(151, 47);
             this.MOVCXVAR.TabIndex = 23;
             this.MOVCXVAR.Text = "MOV CX VAR";
             this.MOVCXVAR.UseVisualStyleBackColor = true;
@@ -330,9 +353,10 @@
             // 
             this.MOVDXVAR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOVDXVAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MOVDXVAR.Location = new System.Drawing.Point(668, 257);
+            this.MOVDXVAR.Location = new System.Drawing.Point(891, 316);
+            this.MOVDXVAR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MOVDXVAR.Name = "MOVDXVAR";
-            this.MOVDXVAR.Size = new System.Drawing.Size(113, 38);
+            this.MOVDXVAR.Size = new System.Drawing.Size(151, 47);
             this.MOVDXVAR.TabIndex = 24;
             this.MOVDXVAR.Text = "MOV DX VAR";
             this.MOVDXVAR.UseVisualStyleBackColor = true;
@@ -340,11 +364,12 @@
             // 
             // VARIABLE
             // 
-            this.VARIABLE.Location = new System.Drawing.Point(486, 218);
+            this.VARIABLE.Location = new System.Drawing.Point(648, 268);
+            this.VARIABLE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.VARIABLE.MaxLength = 5;
             this.VARIABLE.Multiline = true;
             this.VARIABLE.Name = "VARIABLE";
-            this.VARIABLE.Size = new System.Drawing.Size(164, 25);
+            this.VARIABLE.Size = new System.Drawing.Size(217, 30);
             this.VARIABLE.TabIndex = 26;
             this.VARIABLE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.VARIABLE_KeyPress);
             // 
@@ -352,9 +377,10 @@
             // 
             this.labelVAR.AutoSize = true;
             this.labelVAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelVAR.Location = new System.Drawing.Point(407, 218);
+            this.labelVAR.Location = new System.Drawing.Point(543, 268);
+            this.labelVAR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelVAR.Name = "labelVAR";
-            this.labelVAR.Size = new System.Drawing.Size(46, 20);
+            this.labelVAR.Size = new System.Drawing.Size(56, 25);
             this.labelVAR.TabIndex = 25;
             this.labelVAR.Text = "VAR";
             // 
@@ -362,9 +388,10 @@
             // 
             this.XCHGAXBX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHGAXBX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.XCHGAXBX.Location = new System.Drawing.Point(271, 352);
+            this.XCHGAXBX.Location = new System.Drawing.Point(361, 433);
+            this.XCHGAXBX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XCHGAXBX.Name = "XCHGAXBX";
-            this.XCHGAXBX.Size = new System.Drawing.Size(246, 38);
+            this.XCHGAXBX.Size = new System.Drawing.Size(328, 47);
             this.XCHGAXBX.TabIndex = 27;
             this.XCHGAXBX.Text = "XCHG AX BX";
             this.XCHGAXBX.UseVisualStyleBackColor = true;
@@ -374,9 +401,10 @@
             // 
             this.XCHGBXCX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHGBXCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.XCHGBXCX.Location = new System.Drawing.Point(537, 352);
+            this.XCHGBXCX.Location = new System.Drawing.Point(716, 433);
+            this.XCHGBXCX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XCHGBXCX.Name = "XCHGBXCX";
-            this.XCHGBXCX.Size = new System.Drawing.Size(246, 38);
+            this.XCHGBXCX.Size = new System.Drawing.Size(328, 47);
             this.XCHGBXCX.TabIndex = 28;
             this.XCHGBXCX.Text = "XCHG BX CX";
             this.XCHGBXCX.UseVisualStyleBackColor = true;
@@ -386,9 +414,10 @@
             // 
             this.XCHGAXCX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHGAXCX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.XCHGAXCX.Location = new System.Drawing.Point(271, 396);
+            this.XCHGAXCX.Location = new System.Drawing.Point(361, 487);
+            this.XCHGAXCX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XCHGAXCX.Name = "XCHGAXCX";
-            this.XCHGAXCX.Size = new System.Drawing.Size(246, 38);
+            this.XCHGAXCX.Size = new System.Drawing.Size(328, 47);
             this.XCHGAXCX.TabIndex = 29;
             this.XCHGAXCX.Text = "XCHG AX CX";
             this.XCHGAXCX.UseVisualStyleBackColor = true;
@@ -398,9 +427,10 @@
             // 
             this.XCHGBXDX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHGBXDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.XCHGBXDX.Location = new System.Drawing.Point(537, 396);
+            this.XCHGBXDX.Location = new System.Drawing.Point(716, 487);
+            this.XCHGBXDX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XCHGBXDX.Name = "XCHGBXDX";
-            this.XCHGBXDX.Size = new System.Drawing.Size(246, 38);
+            this.XCHGBXDX.Size = new System.Drawing.Size(328, 47);
             this.XCHGBXDX.TabIndex = 30;
             this.XCHGBXDX.Text = "XCHG BX DX";
             this.XCHGBXDX.UseVisualStyleBackColor = true;
@@ -410,9 +440,10 @@
             // 
             this.XCHGAXDX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHGAXDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.XCHGAXDX.Location = new System.Drawing.Point(271, 440);
+            this.XCHGAXDX.Location = new System.Drawing.Point(361, 542);
+            this.XCHGAXDX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XCHGAXDX.Name = "XCHGAXDX";
-            this.XCHGAXDX.Size = new System.Drawing.Size(246, 38);
+            this.XCHGAXDX.Size = new System.Drawing.Size(328, 47);
             this.XCHGAXDX.TabIndex = 31;
             this.XCHGAXDX.Text = "XCHG AX DX";
             this.XCHGAXDX.UseVisualStyleBackColor = true;
@@ -422,9 +453,10 @@
             // 
             this.XCHGCXDX.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHGCXDX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.XCHGCXDX.Location = new System.Drawing.Point(537, 440);
+            this.XCHGCXDX.Location = new System.Drawing.Point(716, 542);
+            this.XCHGCXDX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.XCHGCXDX.Name = "XCHGCXDX";
-            this.XCHGCXDX.Size = new System.Drawing.Size(246, 38);
+            this.XCHGCXDX.Size = new System.Drawing.Size(328, 47);
             this.XCHGCXDX.TabIndex = 32;
             this.XCHGCXDX.Text = "XCHG CX DX";
             this.XCHGCXDX.UseVisualStyleBackColor = true;
@@ -434,9 +466,10 @@
             // 
             this.RESET.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RESET.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.RESET.Location = new System.Drawing.Point(42, 175);
+            this.RESET.Location = new System.Drawing.Point(56, 215);
+            this.RESET.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RESET.Name = "RESET";
-            this.RESET.Size = new System.Drawing.Size(203, 33);
+            this.RESET.Size = new System.Drawing.Size(271, 41);
             this.RESET.TabIndex = 33;
             this.RESET.Text = "RESET";
             this.RESET.UseVisualStyleBackColor = true;
@@ -444,12 +477,13 @@
             // 
             // textBoxLog
             // 
-            this.textBoxLog.Location = new System.Drawing.Point(42, 218);
+            this.textBoxLog.Location = new System.Drawing.Point(56, 268);
+            this.textBoxLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxLog.Multiline = true;
             this.textBoxLog.Name = "textBoxLog";
             this.textBoxLog.ReadOnly = true;
             this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxLog.Size = new System.Drawing.Size(203, 212);
+            this.textBoxLog.Size = new System.Drawing.Size(269, 260);
             this.textBoxLog.TabIndex = 34;
             // 
             // textBoxHelp
@@ -457,9 +491,10 @@
             this.textBoxHelp.BackColor = System.Drawing.SystemColors.Info;
             this.textBoxHelp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxHelp.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxHelp.Location = new System.Drawing.Point(42, 443);
+            this.textBoxHelp.Location = new System.Drawing.Point(56, 545);
+            this.textBoxHelp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxHelp.Name = "textBoxHelp";
-            this.textBoxHelp.Size = new System.Drawing.Size(203, 33);
+            this.textBoxHelp.Size = new System.Drawing.Size(271, 41);
             this.textBoxHelp.TabIndex = 35;
             this.textBoxHelp.Text = "INFO";
             this.textBoxHelp.UseVisualStyleBackColor = false;
@@ -467,12 +502,12 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(821, 506);
+            this.ClientSize = new System.Drawing.Size(1095, 623);
             this.Controls.Add(this.textBoxHelp);
             this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.RESET);
@@ -511,6 +546,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Tag = "";
